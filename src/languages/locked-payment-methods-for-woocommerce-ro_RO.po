@@ -1,0 +1,394 @@
+# Translation of Locked Payment Methods for WooCommerce in Romanian
+# This file is distributed under the same license as the Locked Payment Methods for WooCommerce package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-14 20:39:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ro\n"
+"Project-Id-Version: Locked Payment Methods for WooCommerce\n"
+
+#: dependencies/deep-web-solutions/wp-framework-woocommerce/src/includes/Settings/Functionalities/WC_AbstractValidatedProductSettingsTabFunctionality.php:213
+msgid "Failed to delete product meta data from the database"
+msgstr "Ștergerea metadatelor de produs din baza de date a eșuat"
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:128
+msgid "Fields have been disabled because this order has already been paid."
+msgstr "Câmpurile au fost deactivate deoarece comanda a fost plătită deja."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com/plugins/locked-payment-methods-for-woocommerce/"
+msgstr "https://www.deep-web-solutions.com/plugins/locked-payment-methods-for-woocommerce/"
+
+#. translators: %s: strategy name.
+#: src/includes/UnlockStrategies/AbstractUnlockStrategy.php:213
+msgid "Unlock via %s"
+msgstr "Deblocare prin %s"
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/AbstractPermissionsFunctionality.php:72
+msgid "Failed to update permissions"
+msgstr "Nu s-a reușit actualizarea permisiunilor"
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:126
+msgid "Payment methods ..."
+msgstr "Metode de plată ..."
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:120
+msgid "Grant access to the following locked payment methods"
+msgstr "Acordați acces la următoarele metode de plată blocate"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:172
+msgctxt "users table"
+msgid "Filter"
+msgstr "Filtru"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:169
+msgid "Unlocked for..."
+msgstr "Deblocat pentru..."
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:115
+msgctxt "wc-memberships-integration"
+msgid "Unlocked Payment Methods"
+msgstr "Metode de plată deblocate"
+
+#: src/includes/UnlockStrategies/UserRoleStrategy.php:26
+msgctxt "unlock-strategies"
+msgid "User Roles"
+msgstr "Roluri utilizator"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:32
+msgctxt "unlock-strategies"
+msgid "User Meta"
+msgstr "Metadatele Utilizatorilor"
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:41
+msgctxt "unlock-strategies"
+msgid "Order Meta"
+msgstr "Metadatele Comenzilor"
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:29
+msgctxt "unlock-strategies"
+msgid "WC Memberships"
+msgstr "WC Memberships"
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:29
+msgctxt "unlock-strategies"
+msgid "Groups"
+msgstr "Grupuri"
+
+#: src/includes/Settings.php:66
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:79
+msgctxt "settings"
+msgid "Locked Payment Methods"
+msgstr "Metode de plată blocate"
+
+#: src/configs/settings.php:28
+msgctxt "settings"
+msgid "No"
+msgstr "Nu"
+
+#: src/configs/settings.php:23
+msgctxt "settings"
+msgid "Yes"
+msgstr "Da"
+
+#: bootstrap.php:58
+msgid "Deep Web Solutions: Locked Payment Methods for WooCommerce"
+msgstr "Deep Web Solutions: Metode de plată blocate pentru WooCommerce"
+
+#. Author URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com"
+msgstr "https://www.deep-web-solutions.com"
+
+#. Author of the plugin/theme
+msgid "Deep Web Solutions"
+msgstr "Deep Web Solutions"
+
+#. Description of the plugin/theme
+msgid "A WooCommerce extension which allows shop managers to hide payment methods from customers that haven't been manually granted access yet."
+msgstr "O extensie WooCommerce care permite managerilor de magazine să ascundă metode de plată de clienții cărora nu li s-a acordat încă manual acces."
+
+#. translators: %s: Plugin name.
+#: bootstrap.php:51
+msgid "It seems like <strong>%s</strong> is corrupted. Please reinstall!"
+msgstr "Se pare că <strong>%s</strong> este corupt. Vă rugăm să reinstalați!"
+
+#: src/includes/UnlockStrategies/UserRoleStrategy.php:36
+msgid "Users with certain roles will be granted full access to all the locked payment methods."
+msgstr "Utilizatorilor cu anumite roluri li se va acorda acces deplin la toate metodele de plată blocate."
+
+#: src/includes/UnlockStrategies/UserRoleStrategy.php:61
+msgid "User roles with full access to all enabled payment methods"
+msgstr "Roluri de utilizator cu acces complet la toate metodele de plată active"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:42
+msgid "Adds controls for granting access to each locked payment method separately to each user's profile page. Access is granted for all future orders and all current unpaid orders."
+msgstr "Adaugă controale pentru acordarea accesului la fiecare metodă de plată blocată separat pe pagina de profil a fiecărui utilizator. Accesul este acordat pentru toate comenzile viitoare și pentru toate comenzile curente neplătite."
+
+#. translators: Name of the payment gateway.
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:241
+msgid "Unlock the <strong>%s</strong> payment method for this user?"
+msgstr "Deblocați metoda de plată <strong>%s</strong> pentru acest utilizator?"
+
+#. Plugin Name of the plugin/theme
+msgid "Locked Payment Methods for WooCommerce"
+msgstr "Metode de plată blocate pentru WooCommerce"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:93
+msgid "Unlocked for"
+msgstr "Deblocat pentru"
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:51
+msgid "Adds controls for granting access to each locked payment method separately to each unpaid order. Access is granted only for the respective order."
+msgstr "Adaugă controale pentru acordarea accesului la fiecare metodă de plată blocată separat pentru fiecare comandă neplătită. Accesul este acordat numai pentru comanda respectivă."
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:145
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:248
+msgid "The customer is already granted access to this payment method through other means."
+msgstr "Clientul are deja acces la această metodă de plată prin alte mijloace."
+
+#. translators: Name of the payment gateway.
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:136
+msgid "Unlock the <i>%s</i> payment method for this order?"
+msgstr "Deblocați metoda de plată <i>%s</i> pentru această comandă?"
+
+#: dependencies/deep-web-solutions/wp-framework-settings/src/includes/Functionalities/AbstractOptionsPageFunctionality.php:133
+msgid "Failed to delete the plugin options from the database"
+msgstr "Nu s-a reușit ștergerea opțiunilor plugin-ului din baza de date"
+
+#: src/includes/Settings/PluginSettings.php:44
+msgid "If enabled, the plugin will remove all database data when removed and you will need to reconfigure everything if you install it again at a later time."
+msgstr "Dacă opțiunea este activată, pluginul va șterge toate datele din baza de date atunci când este șters și va trebui să reconfigurați totul dacă îl instalați din nou în viitor."
+
+#: src/includes/Settings/PluginSettings.php:39
+msgid "Remove all data on uninstallation?"
+msgstr "Șterge toate datele la dezinstalare?"
+
+#: src/includes/Settings/PluginSettings.php:27
+msgid "Plugin Settings"
+msgstr "Setări Plugin"
+
+#: src/includes/Settings/GeneralSettings.php:53
+msgid "Only enabled payment methods can be selected"
+msgstr "Se pot selecta doar metodele de plată active"
+
+#: src/includes/Settings/GeneralSettings.php:45
+msgid "Payment methods which are locked by default"
+msgstr "Metode de plată blocate în mod implicit"
+
+#: src/includes/Settings/GeneralSettings.php:26
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: src/includes/Plugin.php:136
+msgid "Premium support"
+msgstr "Suport Premium"
+
+#: src/includes/Plugin.php:136
+msgid "Visit premium support forums"
+msgstr "Vizitați forumurile de asistență premium"
+
+#: src/includes/Plugin.php:135
+msgid "Account"
+msgstr "Cont"
+
+#: src/includes/Plugin.php:135
+msgid "Visit your account area"
+msgstr "Vizitați zona contului dvs"
+
+#: src/includes/Plugin.php:126
+msgid "Community support"
+msgstr "Suport din partea comunității"
+
+#: src/includes/Plugin.php:126
+msgid "Visit community forums"
+msgstr "Vizitează forumurile Comunităţii"
+
+#: src/includes/Plugin.php:131
+msgid "Contact us"
+msgstr "Contact"
+
+#: src/includes/Plugin.php:131
+msgid "Send us an inquiry"
+msgstr "Trimiteți-ne o întrebare"
+
+#: src/includes/Plugin.php:108
+msgid "Upgrade"
+msgstr "Actualizați"
+
+#: src/includes/Plugin.php:108
+msgid "Upgrade for premium features"
+msgstr "Cumpără licență pentru funcții premium"
+
+#: src/includes/Plugin.php:104
+msgid "Settings"
+msgstr "Setări"
+
+#: src/includes/Plugin.php:104
+msgid "View settings"
+msgstr "Vizualizați setările"
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:39
+msgid "Adds controls for granting access to each locked payment method separately to membership plans."
+msgstr "Adaugă controale pentru acordarea accesului la fiecare metodă de plată blocată separat pentru planurile de membru."
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:39
+msgid "Adds controls for granting access to each locked payment method separately to the group settings."
+msgstr "Adaugă în setările grupului controale pentru acordarea accesului la fiecare metodă de plată blocată separat."
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:147
+msgid "Payment methods"
+msgstr "Metode de plată"
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:138
+msgid "Grant access to payment methods:"
+msgstr "Acordă acces la următoarele metode de plată:"
+
+#: src/includes/Integrations/IntegrationsSettings.php:26
+msgid "Integrations Settings"
+msgstr "Setări de integrare"
+
+#. translators: PHP settings value.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:183
+msgid "%s or higher"
+msgstr "%s sau mai mare"
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:94
+msgid "<strong>%1$s</strong> requires the %2$s plugin to be installed and active. Please install and activate the plugin first."
+msgid_plural "<strong>%1$s</strong> requires the following plugins to be installed and active: %2$s. Please install and activate these plugins first."
+msgstr[0] "<strong>%1$s</strong> necesită ca pluginul %2$s să fie instalat și activ. Vă rugăm să instalați și să activați mai întâi acest plugin."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:87
+msgid "<strong>%1$s</strong> may behave unexpectedly because the %2$s plugin is either not installed or not active. Please install and activate the plugin first."
+msgid_plural "<strong>%1$s</strong> may behave unexpectedly because the following plugins are either not installed or active: %2$s. Please install and activate these plugins first."
+msgstr[0] "<strong>%1$s</strong> poate avea un comportament neașteptat deoarece pluginul %2$s nu este instalat sau nu este activ. Vă rugăm să instalați și să activați mai întâi plugin-ul."
+msgstr[1] ""
+msgstr[2] ""
+
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:159
+msgid "Please contact your hosting provider or server administrator to configure these settings."
+msgstr "Vă rugăm să contactați furnizorul de servicii de găzduire sau administratorul serverului pentru a configura aceste setări."
+
+#. translators: Plugin name or identifiable name.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:155
+msgid "<strong>%s</strong> cannot run because the following PHP configuration settings are expected:"
+msgstr "<strong>%s</strong> nu poate rula deoarece sunt așteptate următoarele setări de configurare PHP:"
+
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:151
+msgid "Please contact your hosting provider or server administrator to configure these settings. The plugin will attempt to run despite this warning."
+msgstr "Vă rugăm să contactați furnizorul de servicii de găzduire sau administratorul serverului pentru a configura aceste setări. Plugin-ul va încerca să ruleze în ciuda acestui avertisment."
+
+#. translators: Plugin name or identifiable name.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:147
+msgid "<strong>%s</strong> may behave unexpectedly because the following PHP configuration settings are expected:"
+msgstr "<strong>%s</strong> poate avea un comportament neașteptat, deoarece sunt așteptate următoarele setări de configurare PHP:"
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP functions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:217
+msgid "<strong>%1$s</strong> requires the %2$s PHP function to exist. Contact your host or server administrator to install and configure the missing function."
+msgid_plural "<strong>%1$s</strong> requires the following PHP functions to exist: %2$s. Contact your host or server administrator to install and configure the missing functions."
+msgstr[0] "<strong>%1$s</strong> necesită existența funcției PHP %2$s. Contactați gazda sau administratorul serverului pentru a instala și configura funcția lipsă."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP functions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:210
+msgid "<strong>%1$s</strong> may behave unexpectedly because the %2$s PHP function is missing. Contact your host or server administrator to install and configure the missing function."
+msgid_plural "<strong>%1$s</strong> may behave unexpectedly because the following PHP functions are missing: %2$s. Contact your host or server administrator to install and configure the missing functions."
+msgstr[0] "<strong>%1$s</strong> poate avea un comportament neașteptat deoarece funcția PHP %2$s lipsește. Contactați gazda sau administratorul serverului pentru a instala și configura funcția lipsă."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:247
+msgid "<strong>%1$s</strong> requires the %2$s PHP extension to function. Contact your host or server administrator to install and configure the missing extension."
+msgid_plural "<strong>%1$s</strong> requires the following PHP extensions to function: %2$s. Contact your host or server administrator to install and configure the missing extensions."
+msgstr[0] "<strong>%1$s</strong> necesită extensia PHP %2$s pentru a funcționa. Contactați gazda sau administratorul serverului dumneavoastră pentru a instala și configura extensia lipsă."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:240
+msgid "<strong>%1$s</strong> may behave unexpectedly because the %2$s PHP extension is missing. Contact your host or server administrator to install and configure the missing extension."
+msgid_plural "<strong>%1$s</strong> may behave unexpectedly because the following PHP extensions are missing: %2$s. Contact your host or server administrator to install and configure the missing extensions."
+msgstr[0] "<strong>%1$s</strong> poate avea un comportament neașteptat deoarece extensia PHP %2$s lipsește. Contactați gazda sau administratorul serverului pentru a instala și configura extensia lipsă."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: Name of the update button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-update.php:27
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-update.php:38
+msgid "Update"
+msgstr "Actualizare"
+
+#. translators: 1. Plugin name, 2. Plugin version, 3. Name of the update button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-update.php:23
+msgid "A data update is available for <strong>%1$s (v%2$s)</strong>. It is recommended to back up your database before proceeding. Please click the \"%3$s\" button when ready:"
+msgstr "O actualizare a datelor este disponibilă pentru <strong>%1$s (v%2$s)</strong>. Se recomandă să faceți o copie de rezervă a bazei de date înainte de a continua. Vă rugăm să faceți clic pe butonul \"%3$s\" atunci când sunteți gata:"
+
+#. translators: Name of the installation button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-original.php:27
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-original.php:36
+msgid "Install"
+msgstr "Instalează"
+
+#. translators: 1. Plugin name, 2. Plugin version, 3. Name of the install
+#. button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-original.php:23
+msgid "<strong>%1$s (v%2$s)</strong> needs to run its installation routine before it can be used. Please click the \"%3$s\" button to proceed:"
+msgstr "<strong>%1$s (v%2$s)</strong> trebuie să ruleze rutina de instalare înainte de a putea fi utilizat. Vă rugăm să faceți clic pe butonul \"%3$s\" pentru a continua:"
+
+#. translators: 1. Plugin name, 2. Plugin version, 3. Support email, 4. Support
+#. website
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/initialization/error.php:36
+msgid "<strong>%1$s (v%2$s)</strong> initialization failed. Please contact us at <strong><a href=\"mailto:%3$s\">%3$s</a></strong> or visit our <strong><a href=\"%4$s\" target=\"_blank\">support website</a></strong> to get help. Please include this error notice in your support query:"
+msgstr "Inițializarea <strong>%1$s (v%2$s)</strong> a eșuat. Vă rugăm să ne contactați la <strong><a href=\"mailto:%3$s\">%3$s</a></strong> sau vizitați <strong><a href=\"%4$s\" target=\"_blank\">site-ul nostru de suport</a></strong> pentru a obține ajutor. Vă rugăm să includeți această notificare de eroare în cererea de asistență:"
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:232
+msgid "<strong>%1$s</strong> was successfully installed."
+msgstr "<strong>%1$s</strong> a fost instalat cu succes."
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:232
+msgid "<strong>%1$s</strong> was successfully updated."
+msgstr "<strong>%1$s</strong> a fost actualizat cu succes."
+
+#. translators: 1. Installation node name, 2. Error message.
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:176
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:224
+msgid "<strong>%1$s</strong> failed to complete the installation routine. The error is: %2$s"
+msgstr "<strong>%1$s</strong> nu a reușit să finalizeze rutina de instalare. Eroarea este %2$s"
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:154
+msgid "Please wait..."
+msgstr "Vă rugăm să așteptați..."
+
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:88
+msgid "If you need to upgrade your version of PHP you can ask your hosting company for assistance, and if you need help upgrading WordPress you can refer to <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">the Codex</a>."
+msgstr "Dacă aveți nevoie să vă actualizați versiunea de PHP, puteți solicita asistență companiei dvs. de găzduire și, dacă aveți nevoie de ajutor pentru actualizarea WordPress, puteți consulta <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">Codex-ul</a> oficial."
+
+#. translators: PHP version
+#. translators: WordPress version
+#. translators: %s: Installed version of the dependant plugin
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:59
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:71
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:121
+msgid "You're running version %s"
+msgstr "Rulați versiunea %s"
+
+#. translators: 1. Component name, 2. Component version
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:36
+msgid "<strong>%1$s (%2$s)</strong> has encountered an error. Your environment doesn't meet all the system requirements listed below:"
+msgstr "<strong>%1$s (%2$s)</strong> a întâmpinat o eroare. Mediul dvs. nu îndeplinește toate cerințele de sistem enumerate mai jos:"

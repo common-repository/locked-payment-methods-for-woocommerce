@@ -1,0 +1,388 @@
+# Translation of Locked Payment Methods for WooCommerce in German
+# This file is distributed under the same license as the Locked Payment Methods for WooCommerce package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-14 20:38:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: de\n"
+"Project-Id-Version: Locked Payment Methods for WooCommerce\n"
+
+#: dependencies/deep-web-solutions/wp-framework-woocommerce/src/includes/Settings/Functionalities/WC_AbstractValidatedProductSettingsTabFunctionality.php:213
+msgid "Failed to delete product meta data from the database"
+msgstr "Produkt-Metadaten konnten nicht aus der Datenbank gelöscht werden"
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:128
+msgid "Fields have been disabled because this order has already been paid."
+msgstr "Die Felder wurden deaktiviert, da diese Bestellung bereits bezahlt wurde."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com/plugins/locked-payment-methods-for-woocommerce/"
+msgstr "https://www.deep-web-solutions.com/plugins/locked-payment-methods-for-woocommerce/"
+
+#. translators: %s: strategy name.
+#: src/includes/UnlockStrategies/AbstractUnlockStrategy.php:213
+msgid "Unlock via %s"
+msgstr "Entsperren über %s"
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/AbstractPermissionsFunctionality.php:72
+msgid "Failed to update permissions"
+msgstr "Aktualisierung der Berechtigungen ist fehlgeschlagen"
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:126
+msgid "Payment methods ..."
+msgstr "Zahlungsmethoden ..."
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:120
+msgid "Grant access to the following locked payment methods"
+msgstr "Zugriff auf folgende gesperrten Zahlungsmethoden gewähren"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:172
+msgctxt "users table"
+msgid "Filter"
+msgstr "Filter"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:169
+msgid "Unlocked for..."
+msgstr "Entsperrt für..."
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:115
+msgctxt "wc-memberships-integration"
+msgid "Unlocked Payment Methods"
+msgstr "Entsperrte Zahlungsmethoden"
+
+#: src/includes/UnlockStrategies/UserRoleStrategy.php:26
+msgctxt "unlock-strategies"
+msgid "User Roles"
+msgstr "Benutzerrollen"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:32
+msgctxt "unlock-strategies"
+msgid "User Meta"
+msgstr "Benutzer-Metadaten"
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:41
+msgctxt "unlock-strategies"
+msgid "Order Meta"
+msgstr "Bestellung-Metadaten"
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:29
+msgctxt "unlock-strategies"
+msgid "WC Memberships"
+msgstr "WC Memberships"
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:29
+msgctxt "unlock-strategies"
+msgid "Groups"
+msgstr "Groups"
+
+#: src/includes/Settings.php:66
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:79
+msgctxt "settings"
+msgid "Locked Payment Methods"
+msgstr "Gesperrte Zahlungsmethoden"
+
+#: src/configs/settings.php:28
+msgctxt "settings"
+msgid "No"
+msgstr "Nein"
+
+#: src/configs/settings.php:23
+msgctxt "settings"
+msgid "Yes"
+msgstr "Ja"
+
+#: bootstrap.php:58
+msgid "Deep Web Solutions: Locked Payment Methods for WooCommerce"
+msgstr "Deep Web Solutions: Gesperrte Zahlungsmethoden für WooCommerce"
+
+#. Author URI of the plugin/theme
+msgid "https://www.deep-web-solutions.com"
+msgstr "https://www.deep-web-solutions.com"
+
+#. Author of the plugin/theme
+msgid "Deep Web Solutions"
+msgstr "Deep Web Solutions"
+
+#. Description of the plugin/theme
+msgid "A WooCommerce extension which allows shop managers to hide payment methods from customers that haven't been manually granted access yet."
+msgstr "Eine WooCommerce-Erweiterung, die es Shopbetreibern ermöglicht, Zahlungsmethoden vor Kunden auszublenden, die noch nicht manuell freigeschaltet wurden."
+
+#. translators: %s: Plugin name.
+#: bootstrap.php:51
+msgid "It seems like <strong>%s</strong> is corrupted. Please reinstall!"
+msgstr "Es scheint, dass <strong>%s</strong> beschädigt ist. Bitte erneut installieren!"
+
+#: src/includes/UnlockStrategies/UserRoleStrategy.php:36
+msgid "Users with certain roles will be granted full access to all the locked payment methods."
+msgstr "Benutzer mit bestimmten Rollen erhalten Vollzugriff auf alle gesperrten Zahlungsmethoden."
+
+#: src/includes/UnlockStrategies/UserRoleStrategy.php:61
+msgid "User roles with full access to all enabled payment methods"
+msgstr "Benutzerrollen mit vollem Zugriff auf alle aktiven Zahlungsmethoden"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:42
+msgid "Adds controls for granting access to each locked payment method separately to each user's profile page. Access is granted for all future orders and all current unpaid orders."
+msgstr "Fügt Steuerelemente für die Gewährung von Zugriff auf jede gesperrte Zahlungsmethode separat auf der Profilseite jedes Benutzers hinzu. Der Zugriff wird für alle zukünftigen Bestellungen und alle aktuellen unbezahlten Bestellungen gewährt."
+
+#. translators: Name of the payment gateway.
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:241
+msgid "Unlock the <strong>%s</strong> payment method for this user?"
+msgstr "<strong>%s</strong> Zahlungsmethode für diesen Benutzer enstperren?"
+
+#. Plugin Name of the plugin/theme
+msgid "Locked Payment Methods for WooCommerce"
+msgstr "Gesperrte Zahlungsmethoden für WooCommerce"
+
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:93
+msgid "Unlocked for"
+msgstr "Entsperrt für"
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:51
+msgid "Adds controls for granting access to each locked payment method separately to each unpaid order. Access is granted only for the respective order."
+msgstr "Fügt Steuerelemente für die Gewährung des Zugriffs auf jede gesperrte Zahlungsmethode separat zu jeder unbezahlten Bestellung hinzu. Der Zugriff wird nur für die jeweilige Bestellung gewährt."
+
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:145
+#: src/includes/UnlockStrategies/UserMetaStrategy.php:248
+msgid "The customer is already granted access to this payment method through other means."
+msgstr "Der Kunde hat schon Zugriff auf diese Zahlungsmethode auf anderem Wege."
+
+#. translators: Name of the payment gateway.
+#: src/includes/UnlockStrategies/OrderMetaStrategy.php:136
+msgid "Unlock the <i>%s</i> payment method for this order?"
+msgstr "Entsperren Sie die <i>%s</i> Zahlungsmethode für diese Bestellung?"
+
+#: dependencies/deep-web-solutions/wp-framework-settings/src/includes/Functionalities/AbstractOptionsPageFunctionality.php:133
+msgid "Failed to delete the plugin options from the database"
+msgstr "Das Löschen der Plugin-Optionen aus der Datenbank ist fehlgeschlagen"
+
+#: src/includes/Settings/PluginSettings.php:44
+msgid "If enabled, the plugin will remove all database data when removed and you will need to reconfigure everything if you install it again at a later time."
+msgstr "Wenn diese Option aktiviert ist, entfernt das Plugin beim Entfernen alle Datenbankdaten und Sie müssen alles neu konfigurieren, wenn Sie es zu einem späteren Zeitpunkt erneut installieren."
+
+#: src/includes/Settings/PluginSettings.php:39
+msgid "Remove all data on uninstallation?"
+msgstr "Alle Daten bei Deinstallation entfernen?"
+
+#: src/includes/Settings/PluginSettings.php:27
+msgid "Plugin Settings"
+msgstr "Plugin Einstellungen"
+
+#: src/includes/Settings/GeneralSettings.php:53
+msgid "Only enabled payment methods can be selected"
+msgstr "Nur aktivierte Zahlungsmethoden können ausgewählt werden"
+
+#: src/includes/Settings/GeneralSettings.php:45
+msgid "Payment methods which are locked by default"
+msgstr "Zahlungsmethoden, die standardmäßig gesperrt sind"
+
+#: src/includes/Settings/GeneralSettings.php:26
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: src/includes/Plugin.php:136
+msgid "Premium support"
+msgstr "Premium Support"
+
+#: src/includes/Plugin.php:136
+msgid "Visit premium support forums"
+msgstr "Premium-Support-Foren besuchen"
+
+#: src/includes/Plugin.php:135
+msgid "Account"
+msgstr "Konto"
+
+#: src/includes/Plugin.php:135
+msgid "Visit your account area"
+msgstr "Besuchen Sie Ihren Kontobereich"
+
+#: src/includes/Plugin.php:126
+msgid "Community support"
+msgstr "Community-Support"
+
+#: src/includes/Plugin.php:126
+msgid "Visit community forums"
+msgstr "Besuchen Sie das Community Forum"
+
+#: src/includes/Plugin.php:131
+msgid "Contact us"
+msgstr "Kontaktieren Sie uns"
+
+#: src/includes/Plugin.php:131
+msgid "Send us an inquiry"
+msgstr "Senden Sie uns eine Anfrage"
+
+#: src/includes/Plugin.php:108
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: src/includes/Plugin.php:108
+msgid "Upgrade for premium features"
+msgstr "Upgrade für Premium-Funktionen"
+
+#: src/includes/Plugin.php:104
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/includes/Plugin.php:104
+msgid "View settings"
+msgstr "Einstellungen ansehen"
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:39
+msgid "Adds controls for granting access to each locked payment method separately to membership plans."
+msgstr "Fügt Steuerelemente für die Gewährung des Zugriffs auf jede gesperrte Zahlungsmethode zu den Mitgliedschaftspläneneinstellungen hinzu."
+
+#: src/includes/Integrations/UnlockStrategies/Groups_Integration.php:39
+msgid "Adds controls for granting access to each locked payment method separately to the group settings."
+msgstr "Fügt Steuerelemente für die Gewährung des Zugriffs auf jede gesperrte Zahlungsmethode separat zu den Gruppeneinstellungen hinzu."
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:147
+msgid "Payment methods"
+msgstr "Zahlungsmethoden"
+
+#: src/includes/Integrations/UnlockStrategies/WC_Memberships_Integration.php:138
+msgid "Grant access to payment methods:"
+msgstr "Zugriff auf folgende Zahlungsmethoden gewähren:"
+
+#: src/includes/Integrations/IntegrationsSettings.php:26
+msgid "Integrations Settings"
+msgstr "Integrationseinstellungen"
+
+#. translators: PHP settings value.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:183
+msgid "%s or higher"
+msgstr "%s oder höher"
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:94
+msgid "<strong>%1$s</strong> requires the %2$s plugin to be installed and active. Please install and activate the plugin first."
+msgid_plural "<strong>%1$s</strong> requires the following plugins to be installed and active: %2$s. Please install and activate these plugins first."
+msgstr[0] "<strong>%1$s</strong> erfordert, dass das Plugin %2$s installiert und aktiv ist. Bitte installieren und aktivieren Sie zuerst das Plugin."
+msgstr[1] "<strong>%1$s</strong> erfordert, dass folgende Plugins installiert und aktiv sind: %2$s. Bitte installieren und aktivieren Sie zuerst diese Plugins."
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:87
+msgid "<strong>%1$s</strong> may behave unexpectedly because the %2$s plugin is either not installed or not active. Please install and activate the plugin first."
+msgid_plural "<strong>%1$s</strong> may behave unexpectedly because the following plugins are either not installed or active: %2$s. Please install and activate these plugins first."
+msgstr[0] "<strong>%1$s</strong> kann sich unerwartet verhalten, weil das Plugin %2$s entweder nicht installiert oder nicht aktiv ist. Bitte installieren und aktivieren Sie zuerst das Plugin."
+msgstr[1] "<strong>%1$s</strong> kann sich unerwartet verhalten, weil die folgenden Plugins entweder nicht installiert oder aktiv sind: %2$s. Bitte installieren und aktivieren Sie zuerst diese Plugins."
+
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:159
+msgid "Please contact your hosting provider or server administrator to configure these settings."
+msgstr "Bitte wenden Sie sich an Ihren Hosting-Provider oder Server-Administrator, um diese Einstellungen zu konfigurieren."
+
+#. translators: Plugin name or identifiable name.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:155
+msgid "<strong>%s</strong> cannot run because the following PHP configuration settings are expected:"
+msgstr "<strong>%s</strong> kann nicht ausgeführt werden, da die folgenden PHP-Konfigurationseinstellungen erwartet werden:"
+
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:151
+msgid "Please contact your hosting provider or server administrator to configure these settings. The plugin will attempt to run despite this warning."
+msgstr "Bitte wenden Sie sich an Ihren Hosting-Provider oder Server-Administrator, um diese Einstellungen zu konfigurieren. Das Plugin wird versuchen, trotz dieser Warnung zu laufen."
+
+#. translators: Plugin name or identifiable name.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:147
+msgid "<strong>%s</strong> may behave unexpectedly because the following PHP configuration settings are expected:"
+msgstr "<strong>%s</strong> kann sich unerwartet verhalten, weil die folgenden PHP-Konfigurationseinstellungen erwartet werden:"
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP functions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:217
+msgid "<strong>%1$s</strong> requires the %2$s PHP function to exist. Contact your host or server administrator to install and configure the missing function."
+msgid_plural "<strong>%1$s</strong> requires the following PHP functions to exist: %2$s. Contact your host or server administrator to install and configure the missing functions."
+msgstr[0] "<strong>%1$s</strong> benötigt die PHP-Funktion %2$s. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlende Funktion zu installieren und zu konfigurieren."
+msgstr[1] "<strong>%1$s</strong> erfordert das Vorhandensein der folgenden PHP-Funktionen: %2$s. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlenden Funktionen zu installieren und zu konfigurieren."
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP functions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:210
+msgid "<strong>%1$s</strong> may behave unexpectedly because the %2$s PHP function is missing. Contact your host or server administrator to install and configure the missing function."
+msgid_plural "<strong>%1$s</strong> may behave unexpectedly because the following PHP functions are missing: %2$s. Contact your host or server administrator to install and configure the missing functions."
+msgstr[0] "<strong>%1$s</strong> kann sich unerwartet verhalten, weil die PHP-Funktion %2$s fehlt. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlende Funktion zu installieren und zu konfigurieren."
+msgstr[1] "<strong>%1$s</strong> kann sich unerwartet verhalten, weil die folgenden PHP-Funktionen fehlen: %2$s. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlenden Funktionen zu installieren und zu konfigurieren."
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:247
+msgid "<strong>%1$s</strong> requires the %2$s PHP extension to function. Contact your host or server administrator to install and configure the missing extension."
+msgid_plural "<strong>%1$s</strong> requires the following PHP extensions to function: %2$s. Contact your host or server administrator to install and configure the missing extensions."
+msgstr[0] "<strong>%1$s</strong> benötigt die PHP-Erweiterung %2$s, um zu funktionieren. Wenden Sie sich an Ihren Host oder Server-Administrator, um die fehlende Erweiterung zu installieren und zu konfigurieren."
+msgstr[1] "<strong>%1$s</strong> benötigt die folgenden PHP-Erweiterungen, um zu funktionieren: %2$s. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlenden Erweiterungen zu installieren und zu konfigurieren."
+
+#. translators: 1. Plugin or identifiable name, 2. Comma-separated list of
+#. missing PHP extensions.
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:240
+msgid "<strong>%1$s</strong> may behave unexpectedly because the %2$s PHP extension is missing. Contact your host or server administrator to install and configure the missing extension."
+msgid_plural "<strong>%1$s</strong> may behave unexpectedly because the following PHP extensions are missing: %2$s. Contact your host or server administrator to install and configure the missing extensions."
+msgstr[0] "<strong>%1$s</strong> kann sich unerwartet verhalten, weil die PHP-Erweiterung %2$s fehlt. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlende Erweiterung zu installieren und zu konfigurieren."
+msgstr[1] "<strong>%1$s</strong> kann sich unerwartet verhalten, weil die folgenden PHP-Erweiterungen fehlen: %2$s. Wenden Sie sich an Ihren Host- oder Server-Administrator, um die fehlenden Erweiterungen zu installieren und zu konfigurieren."
+
+#. translators: Name of the update button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-update.php:27
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-update.php:38
+msgid "Update"
+msgstr "Aktualisieren"
+
+#. translators: 1. Plugin name, 2. Plugin version, 3. Name of the update button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-update.php:23
+msgid "A data update is available for <strong>%1$s (v%2$s)</strong>. It is recommended to back up your database before proceeding. Please click the \"%3$s\" button when ready:"
+msgstr "Ein Datenupdate ist für <strong>%1$s (v%2$s)</strong> verfügbar. Es wird empfohlen, Ihre Datenbank zu sichern, bevor Sie fortfahren. Bitte klicken Sie auf die Schaltfläche \"%3$s\", wenn Sie bereit sind:"
+
+#. translators: Name of the installation button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-original.php:27
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-original.php:36
+msgid "Install"
+msgstr "Installieren"
+
+#. translators: 1. Plugin name, 2. Plugin version, 3. Name of the install
+#. button
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/installation/required-original.php:23
+msgid "<strong>%1$s (v%2$s)</strong> needs to run its installation routine before it can be used. Please click the \"%3$s\" button to proceed:"
+msgstr "<strong>%1$s (v%2$s)</strong> muss seine Installationsroutine ausführen, bevor es verwendet werden kann. Bitte klicken Sie auf die Schaltfläche \"%3$s\", um fortzufahren:"
+
+#. translators: 1. Plugin name, 2. Plugin version, 3. Support email, 4. Support
+#. website
+#: dependencies/deep-web-solutions/wp-framework-core/src/templates/initialization/error.php:36
+msgid "<strong>%1$s (v%2$s)</strong> initialization failed. Please contact us at <strong><a href=\"mailto:%3$s\">%3$s</a></strong> or visit our <strong><a href=\"%4$s\" target=\"_blank\">support website</a></strong> to get help. Please include this error notice in your support query:"
+msgstr "Initialisierung von <strong>%1$s (v%2$s)</strong> ist fehlgeschlagen. Bitte kontaktieren Sie uns unter <strong><a href=\"mailto:%3$s\">%3$s</a></strong> oder besuchen Sie unsere <strong><a href=\"%4$s\" target=\"_blank\">Support-Website</a></strong> um Hilfe zu erhalten. Bitte fügen Sie diese Fehlermeldung Ihrer Support-Anfrage bei:"
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:232
+msgid "<strong>%1$s</strong> was successfully installed."
+msgstr "<strong>%1$s</strong> wurde erfolgreich installiert."
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:232
+msgid "<strong>%1$s</strong> was successfully updated."
+msgstr "<strong>%1$s</strong> wurde erfolgreich aktualisiert."
+
+#. translators: 1. Installation node name, 2. Error message.
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:176
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:224
+msgid "<strong>%1$s</strong> failed to complete the installation routine. The error is: %2$s"
+msgstr "Die Installationsroutine von <strong>%1$s</strong> konnte nicht abgeschlossen werden. Der Fehler ist %2$s"
+
+#: dependencies/deep-web-solutions/wp-framework-core/src/includes/Functionalities/InstallationFunctionality.php:154
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:88
+msgid "If you need to upgrade your version of PHP you can ask your hosting company for assistance, and if you need help upgrading WordPress you can refer to <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">the Codex</a>."
+msgstr "Wenn Sie Ihre PHP-Version aktualisieren müssen, können Sie Ihre Hosting-Firma um Hilfe bitten, und wenn Sie Hilfe bei der Aktualisierung von WordPress benötigen, können Sie sich an den <a href=\"https://wordpress.org/support/article/updating-wordpress/\" target=\"_blank\">Codex</a> wenden."
+
+#. translators: PHP version
+#. translators: WordPress version
+#. translators: %s: Installed version of the dependant plugin
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:59
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:71
+#: dependencies/deep-web-solutions/wp-framework-utilities/src/includes/Dependencies/Helpers/DependenciesServiceHelpers.php:121
+msgid "You're running version %s"
+msgstr "Sie verwenden die Version %s"
+
+#. translators: 1. Component name, 2. Component version
+#: dependencies/deep-web-solutions/wp-framework-bootstrapper/src/templates/requirements-error.php:36
+msgid "<strong>%1$s (%2$s)</strong> has encountered an error. Your environment doesn't meet all the system requirements listed below:"
+msgstr "<strong>%1$s (%2$s)</strong> ist auf einen Fehler gestoßen. Ihre Umgebung erfüllt nicht alle der unten aufgeführten Systemanforderungen:"
